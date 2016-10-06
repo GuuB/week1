@@ -8,8 +8,5 @@ var map = function (array, callBack)
   return newArray;
 }
 
-map(["ground", "control", "to", "major", "tom"], function (elm)
-{ return elm.length });
-
 console.log(map(["ground", "control", "to", "major", "tom"], function (elm)
 { return elm.length }));
